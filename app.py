@@ -43,7 +43,7 @@ async def handle_link(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return;
     }}
 
-    fetch("https://your-app-name.onrender.com/copy", {{
+    fetch("https://telegram-bot.onrender.com/copy", {{
         method: "POST",
         headers: {{
             "Content-Type": "application/json"
